@@ -1,0 +1,178 @@
+/* Global */
+.md-button.md-fab {
+    background-color: rgb(255,82,82);
+    color: white;
+}
+
+.md-button.md-fab:not([disabled]):hover {
+    background-color: rgb(213,0,0);
+}
+
+.md-button.md-fab i {
+    padding-top: 21px;
+}
+
+.md-icon-button i {
+    padding-top: 5px;
+}
+
+table {
+    width: 100%;
+}
+
+/* Main SideNav */
+.main-sidenav {
+    background: #106CC8;
+}
+
+.main-sidenav md-content {
+    background: transparent;
+}
+
+.main-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu .main-menu-link {
+    color: white;
+    margin: 0;
+    padding: 16px 0;
+    width: 100%;
+}
+
+/* Logo Header */
+.nav-header {
+    background-color: #106CC8;
+    background: -webkit-linear-gradient(#185694, #106cc8);
+    background: linear-gradient(#185694, #106cc8);
+    border-bottom: 1px solid #267ED5;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    z-index: 2;
+}
+
+md-card .nav-header {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.site-logo {
+    text-decoration: none;
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    /* align-items: center; */
+    padding: 16px 0;
+    margin: 0 auto;
+}
+
+.site-logo:hover {
+    text-decoration: none;
+}
+
+.site-logo img {
+    max-width: 150px;
+}
+
+.site-title {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+/* Main Toolbar */
+.site-toolbar {
+    background: #f6f6f6 !important;
+    color: #202020 !important;
+    z-index: 3;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.14),
+                0px 0px 2px 2px rgba(0, 0, 0, 0.098),
+                0px 0px 5px 1px rgba(0, 0, 0, 0.084);
+}
+
+#base-content {
+    padding: 16px;
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.breadcrumbs li {
+    display: inline;
+}
+
+.breadcrumbs li a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumbs li .divider {
+    margin-right: 10px;
+    margin-left: 5px;
+    color: #666 !important;
+    fill: #666 !important;
+}
+
+/* Items */
+.items-list-line {
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+}
+
+.items-list-actions {
+    text-align: right;
+}
+
+/* Cards */
+.sport-card-header {
+    background: #106CC8;
+    color: white;
+    padding: 0 16px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    min-height: 16px;
+}
+
+.sport-card-title {
+    margin: 10px 0;
+}
+
+/* Measurements */
+.body-data-field {
+
+}
+
+.body-data-value {
+    text-align: right;
+}
+
+/* Steps */
+.steps-line, .steps-line-show {
+    margin: 10px 0;
+}
+
+.steps-line-show .step-show-row {
+    min-height: 50px;
+    text-align: center;
+}
+
+.steps-line-show md-card-content {
+    padding: 0;
+}
+
+@media (max-width: 600px) {
+    .steps-line-show .step-show-row {
+        margin-bottom: 16px;
+    }
+}
